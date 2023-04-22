@@ -1,5 +1,5 @@
 print('''
-a pirate's treasure map
+********************************Welcome to Treasure Island********************************
     ___
     ).x)
    (:_(
@@ -47,3 +47,9 @@ ejm 96     / HHH  \
     /
    /
    ''')
+print("Your mission is to find a Treasure")
+input = input("do you want to go LEFT or RIGHT...Click L for left and R for right")
+if input.upper() == "R":
+    print("YOU FELL INTO THE HOLES ***GAME OVER***")
+else:
+        
