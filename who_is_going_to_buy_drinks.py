@@ -7,4 +7,4 @@ names = names_string.split(", ")
 
 length_of_inputs = len(names)
 random_name = random.randint(0 , length_of_inputs - 1)
-print(f"{names[random_name]} is going to buy the meal today!")
+print(f"{names[random_name]} is going to buy the drinks today!")
