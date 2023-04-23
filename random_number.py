@@ -8,8 +8,8 @@ print(round(random_decimal, 2))
 
 # Head and Tail
 
-number = random.randint(1 , 10)
-if number%2 == 0:
+number = random.randint(0 , 1)
+if number == 0:
     print("Heads")
 else:
     print("Tails")
