@@ -8,3 +8,5 @@ names = names_string.split(", ")
 length_of_inputs = len(names)
 random_name = random.randint(0 , length_of_inputs - 1)
 print(f"{names[random_name]} is going to buy the drinks today!")
+list = [["Pleasanton", "Dublin", "Livermore", "San Leandro", "San Ramon"]["Lucknow", "Agra", "Delhi", "Noida"]]
+print(list[1][2])
