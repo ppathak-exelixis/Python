@@ -48,8 +48,14 @@ ejm 96     / HHH  \
    /
    ''')
 print("Your mission is to find a Treasure")
-input = input("do you want to go LEFT or RIGHT...Click L for left and R for right")
-if input.upper() == "R":
+input1 = input("do you want to go LEFT or RIGHT...Enter 'L' for left and 'R' for right")
+if input1.upper() == "R":
     print("YOU FELL INTO THE HOLES ***GAME OVER***")
 else:
-        
+    input2 = input("Would you like to WAIT or GO for a SWIM...ENTER 'W' for wait and 'G' for swim")
+    if input2.upper() == "G":
+        print("YOU ARE BEING ATTACKED BY TROUT ***GAME OVER***")
+    else:
+        input3 = input("While you're waiting for the door to open please chose the color R for red, Y for Yellow & Blue for B")
+            if input3.upper() == "Y":
+                print()
